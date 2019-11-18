@@ -6,19 +6,19 @@ import (
 	bUser "leo/business/user"
 )
 
-type LoginUser struct {
+type Login struct {
 	xenon.RestResource
 }
 
 func init () {
-	xenon.RegisterResource(new(LoginUser))
+	xenon.RegisterResource(new(Login))
 }
 
-func (this *LoginUser) Resource() string {
+func (this *Login) Resource() string {
 	return "user.login"
 }
 
-func (this *LoginUser) Params() map[string][]string {
+func (this *Login) Params() map[string][]string {
 	return map[string][]string{
 		"PUT": []string{
 			"name",
@@ -28,7 +28,7 @@ func (this *LoginUser) Params() map[string][]string {
 	}
 }
 
-func (this *LoginUser) Put() {
+func (this *Login) Put() {
 	name := this.GetString("name", "")
 	password := this.GetString("password", "")
 	t := this.GetString("type", "")

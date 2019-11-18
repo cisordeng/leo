@@ -22,3 +22,7 @@ func AuthUser(name string, password string, t string) string {
 	}
 	return ""
 }
+
+func ValidType(user *User, t string) bool {
+	return user.Type == t
+}
