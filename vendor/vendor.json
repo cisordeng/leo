@@ -1,105 +1,84 @@
 {
 	"comment": "",
-	"ignore": "test",
+	"ignore": "",
 	"package": [
 		{
-			"checksumSHA1": "reydYTgG00PdJWTTSzleHnIJ+Ao=",
+			"checksumSHA1": "1KbKoyPYab6mK4t61yiLxVbqPsU=",
 			"path": "github.com/cisordeng/beego",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "1NDolESBh8PbxtTWtWIdniDoxvc=",
+			"checksumSHA1": "9pdnyWfshlEv040j2uhilvnK5hg=",
 			"path": "github.com/cisordeng/beego/config",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "/+NRpC+nIvQf/+Tq1jYDSt1hhn0=",
+			"checksumSHA1": "R7MuoJM2dTFnlZlDLOQ8VwM30Kw=",
 			"path": "github.com/cisordeng/beego/context",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "A3JoM+BUntmMT8/HkU6XoFqaMa4=",
+			"checksumSHA1": "NX8SmrfSBvH0zn0nPj79fFXiE1s=",
 			"path": "github.com/cisordeng/beego/context/param",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
 			"checksumSHA1": "9EOKJl3LCxuU/W9VwPZ2rRIh72Q=",
 			"path": "github.com/cisordeng/beego/grace",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "j34Ho1Oz87VU9WsLuYynKh9BNt0=",
+			"checksumSHA1": "4TeZ3ZNhb3U59CM4Qhc9bMehsfY=",
 			"path": "github.com/cisordeng/beego/logs",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "7bvY0ktwgOFCezsV6PmcbSQPCpM=",
+			"checksumSHA1": "oAvjhyRQyTYW5MY17bo0iNoOBb4=",
 			"path": "github.com/cisordeng/beego/orm",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "SY9Rmazq4pIQ9OWw1SXKCUtCI8I=",
+			"checksumSHA1": "JqLkyfNRc+1TrD6O+D3iISMVzfU=",
 			"path": "github.com/cisordeng/beego/plugins/cors",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "n/7+7C4qD0sM8er4PoARg4jBHCI=",
+			"checksumSHA1": "Lu94k+74Ah890ReFx5d6+DqfcGk=",
 			"path": "github.com/cisordeng/beego/session",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "zi/JZySoD7YJkny5Zud6yjJeM3w=",
+			"checksumSHA1": "/5cQImcRE6K7wZaFEpZNNOl5D5U=",
+			"path": "github.com/cisordeng/beego/testdata",
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
+		},
+		{
+			"checksumSHA1": "2MTLSHWyRyWX3+zZw2QejMNvhS4=",
 			"path": "github.com/cisordeng/beego/toolbox",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "s9iAlV8mglFSBIAW2TDDrajpOpg=",
+			"checksumSHA1": "4K+jAQTxo7KgVKTikQKpZoyw+bY=",
 			"path": "github.com/cisordeng/beego/utils",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		},
 		{
-			"checksumSHA1": "OV57nPDqmWJH/tlSIRBKjDfQlc4=",
+			"checksumSHA1": "jgUmg/NH1LH+eXk0AcNrMeABSgM=",
 			"path": "github.com/cisordeng/beego/xenon",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
-		},
-		{
-			"checksumSHA1": "Km4hczIJzag/NQ/ABuOg0bIe/SI=",
-			"path": "github.com/go-sql-driver/mysql",
-			"revision": "b4242bab7dc57d57fef955900943999b6fb34b67",
-			"revisionTime": "2019-11-14T11:57:53Z"
-		},
-		{
-			"checksumSHA1": "J6lNRPdrYhKft6S8x33K9brxyhE=",
-			"origin": "github.com/cisordeng/beego/vendor/golang.org/x/crypto/acme",
-			"path": "golang.org/x/crypto/acme",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
-		},
-		{
-			"checksumSHA1": "EFjIi/zCZ1Cte0MQtyxGCTgSzk8=",
-			"origin": "github.com/cisordeng/beego/vendor/golang.org/x/crypto/acme/autocert",
-			"path": "golang.org/x/crypto/acme/autocert",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
-		},
-		{
-			"checksumSHA1": "ZSWoOPUNRr5+3dhkLK3C4cZAQPk=",
-			"origin": "github.com/cisordeng/beego/vendor/gopkg.in/yaml.v2",
-			"path": "gopkg.in/yaml.v2",
-			"revision": "c47f1fd91679ba092a0e0363b9e1f2e4eec2a601",
-			"revisionTime": "2019-11-04T15:40:05Z"
+			"revision": "ea0ccaa0a97ae556b1a17998e508a8892a1c71ca",
+			"revisionTime": "2019-11-18T14:28:45Z"
 		}
 	],
 	"rootPath": "leo"
