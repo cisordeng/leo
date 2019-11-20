@@ -35,6 +35,10 @@ func InitUserFromModel(model *mUser.User) *User {
 }
 
 func NewUser(name string, password string, avatar string, t string) (user *User) {
+	if NameIsExistInType(name, t) {
+		xenon.RaiseException("rest:name is exist", "用户名已存在")
+	}
+
 	model := mUser.User{
 		Name: name,
 		Password: xenon.EncodeMD5(password),

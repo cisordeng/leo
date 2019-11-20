@@ -5,6 +5,8 @@ import (
 
 	"github.com/cisordeng/beego"
 	"github.com/cisordeng/beego/xenon"
+
+	mUser "leo/model/user"
 )
 
 func AuthUser(name string, password string, t string) string {
@@ -25,4 +27,12 @@ func AuthUser(name string, password string, t string) string {
 
 func ValidType(user *User, t string) bool {
 	return user.Type == t
+}
+
+func NameIsExistInType(name string, t string) bool {
+	users := GetUsers(xenon.Map{
+		"name": name,
+		"type": mUser.STR2USERTYPE[t],
+	})
+	return len(users) > 0
 }

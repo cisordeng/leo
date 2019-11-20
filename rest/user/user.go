@@ -35,11 +35,7 @@ func (this *User) Put() {
 	avatar := this.GetString("avatar", "")
 	t := this.GetString("type", "")
 
-	user := bUser.GetUserByNameInType(name, t)
-	if user != nil {
-		xenon.RaiseException("rest:name is exist", "用户名已存在")
-	}
-	user = bUser.NewUser(name, password, avatar, t)
+	user := bUser.NewUser(name, password, avatar, t)
 	data := bUser.EncodeUser(user)
 	this.ReturnJSON(data)
 }

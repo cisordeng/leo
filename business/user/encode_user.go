@@ -14,3 +14,11 @@ func EncodeUser(user *User) xenon.Map {
 	}
 	return mapUser
 }
+
+func EncodeManyUser(articles []*User) []xenon.Map {
+	mapUsers := make([]xenon.Map, 0)
+	for _, article := range articles {
+		mapUsers = append(mapUsers, EncodeUser(article))
+	}
+	return mapUsers
+}
