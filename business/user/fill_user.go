@@ -24,7 +24,7 @@ func FillUser(resources interface{}) {
 
 	for i := 0; i < reflect.ValueOf(resources).Len(); i ++ {
 		resource := reflect.ValueOf(resources).Index(i)
-		if user, ok := id2user[resource.Elem().FieldByName("Id").Interface().(int)]; ok {
+		if user, ok := id2user[resource.Elem().FieldByName("UserId").Interface().(int)]; ok {
 			resource.Elem().FieldByName("User").Set(reflect.ValueOf(user))
 		}
 	}
